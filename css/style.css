@@ -4,7 +4,7 @@
     padding: 0;
   }
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 1.5;
   }
@@ -87,19 +87,34 @@
   }
   .navbar a {
     color: white;
-    padding: 41px 0;
+    padding: 20px 0;
     display: inline-block;
+    margin-top: 20px;;
+    
   }
   
   .header {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
+    opacity:0.5;
+    font-weight: 600;
   }
   .navbar {
     margin-left: auto;
+    display: block;
+  }
+  .icon {
+  }
+  .navbar a:hover,
+  .navbar ul li a.active {
+    color: #17cfab;
+    border-bottom: 2px solid #1ccba0;
   }
   
+  .navbar a:hover:before {
+    opacity: 1;
+  }
   .navigation {
     display: flex;
     justify-content: center;
@@ -115,6 +130,7 @@
   }
   .content p {
     color: #d4d4d4;
+  
   }
   .button-secone {
     display: flex;
@@ -130,6 +146,7 @@
     padding-bottom: 240px;
     text-align: center;
     width: 100%;
+    
   }
   .strong-text {
     font-size: 36px;
@@ -170,6 +187,7 @@
     width: 100%;
     flex-wrap: wrap;
   }
+ 
   .content-three {
     width: 33.33%;
   }
@@ -332,6 +350,4 @@
   button {
     border: none;
   }
-  
- 
   
